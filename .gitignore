@@ -1,0 +1,6 @@
+.idea
+node_modules
+bower_components
+src/assets_buffer
+src/index.jade
+src/parts/settings/translation_*.jade

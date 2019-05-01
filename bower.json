@@ -1,0 +1,22 @@
+{
+  "name": "promo",
+  "version": "1.0.0",
+  "description": "promo",
+  "main": "gulpfile.js",
+  "authors": [
+    "Roman Vlasov <89101819710rv@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "neat": "^1.8.0",
+    "bourbon": "^4.2.7"
+  }
+}

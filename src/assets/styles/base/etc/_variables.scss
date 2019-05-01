@@ -1,0 +1,25 @@
+$white: #ffffff;
+
+$main-text-color: #f2f2f2;
+$main-bg-color: #010b2b;
+
+
+$link-color: #b093ff;
+
+$line-height: 1.5;
+$base-line-height: 1.5;
+$base-spacing: $base-line-height * 1em;
+
+// Typography
+//@include font-face("FiraSans-Regular", "../fonts/FiraSans-Regular");
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:200,300,400,500,600,700,800&subset=cyrillic,cyrillic-ext,latin-ext');
+
+$FiraSansLight: 'Fira Sans', sans-serif;
+$FiraSansRegular: 'Fira Sans', sans-serif;
+$FitaSansMedium: 'Fira Sans', sans-serif;
+$FiraSansBold: 'Fira Sans', sans-serif;
+$FiraSansSemiBold: 'Fira Sans', sans-serif;
+$FiraSansExtraBold: 'Fira Sans', sans-serif;
+$FiraSansExtraLight: 'Fira Sans', sans-serif;
+
+$base-font-family: $FiraSansLight;

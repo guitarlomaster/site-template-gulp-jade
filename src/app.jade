@@ -1,0 +1,26 @@
+include parts/settings/@@lang
+include parts/settings/translation_@@lang
+- var promo = '@@promo';
+- var env = '@@env';
+
+<!DOCTYPE html>
+html
+    head
+        meta(charset="UTF-8")
+        title #{title}
+        link(rel="shortcut icon" href="favicon.ico")
+        meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
+        meta(content="#{description}" name="description")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width")
+        include parts/includes/social-metatags
+        include parts/includes/scripts
+        link(rel="stylesheet" type="text/css" href="css/style.css?rev=@@hash")
+    body
+        include parts/includes/google-analytics
+        include parts/includes/portal-panel
+
+        main
+            h1 #{header1}
+
+        include parts/includes/yandex-metrika

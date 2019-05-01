@@ -1,0 +1,4 @@
+//- <!-- Global site tag (gtag.js) - Google Analytics -->
+script(async src="https://www.googletagmanager.com/gtag/js?id=#{GA}")
+script
+    | window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '#{GA}'); gtag('event', 'page_view', { 'send_to': '#{GA}' });

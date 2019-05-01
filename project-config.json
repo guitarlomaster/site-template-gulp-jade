@@ -1,0 +1,46 @@
+{
+  "ENV_DEV": "dev",
+  "ENV_PROD": "prod",
+  "default_settings": {
+    "env": "dev",
+    "lang": "ru",
+    "output_path": "target"
+  },
+  "locales": [
+    "ru",
+    "en"
+  ],
+  "servers": {
+    "ru_dev": {
+      "user": "dev",
+      "host": "blablaRU-dev.lan",
+      "root": "/srv/www/html"
+    },
+    "ru_prod": {
+      "user": "dev",
+      "host": "blablaRU.lan",
+      "root": "/srv/www/html"
+    },
+    "en_dev": {
+      "user": "dev",
+      "host": "blablaEN-dev.lan",
+      "root": "/srv/www/html"
+    },
+    "en_prod": {
+      "user": "dev",
+      "host": "blablaEN.lan",
+      "root": "/srv/www/html"
+    }
+  },
+  "deployment": {
+    "ru": {
+      "dev": "ru_dev",
+      "prod": "ru_prod"
+    },
+    "en": {
+      "dev": "en_dev",
+      "prod": "en_prod"
+    }
+  },
+  "multilang": true
+}

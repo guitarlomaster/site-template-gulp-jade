@@ -1,0 +1,16 @@
+script
+    | var localeLand = '#{locale}',
+    |     promo      = '#{promo}',
+    |     livePeriod = '#{env}';
+
+script(type="text/javascript" src="https://universal-client.101xp.com/xp_guid.js")
+
+script(src="vendor/jquery.min.js")
+script(src="vendor/jquery.fancybox.min.js")
+script(src="vendor/js-cookie.js")
+
+script(src="scripts/app.js?rev=@@hash")
+
+script(type="text/javascript")
+    | if (typeof jQuery == 'undefined'){throw 'Bad thing is happened! jQuery in undefined!';}
+//script(src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.js")

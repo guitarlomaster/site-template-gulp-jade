@@ -1,0 +1,94 @@
+//@import '../../../../bower_components/neat/app/assets/stylesheets/neat-helpers';
+
+// Neat Overrides
+//$em-base: 16px;
+$column: 92px;
+$gutter: 20px;
+$grid-columns: 12;
+$max-width: rem(1960);
+$min-width: rem(1085);
+$content-max-width: rem(1955);
+$retina-width: 1768px;
+$side-indents: rem(60);
+$outer-gutter: rem($gutter / 2);
+
+html {
+  font-size: $em-base;
+}
+
+// greed
+.col-1 {
+  //@include span-columns(1);
+}
+.col-15 {
+  @include span-columns(1.5);
+}
+.col-17 {
+  @include span-columns(1.7);
+}
+.col-2 {
+  @include span-columns(2);
+}
+// 2.5
+.col-25 {
+  @include span-columns(2.5);
+}
+// 2.4
+.col-24 {
+  @include span-columns(2.4);
+}
+.col-3 {
+  @include span-columns(3);
+  @include omega(4n);
+}
+.col-4 {
+  @include span-columns(4);
+  @include omega(3n);
+}
+.col-5 {
+  @include span-columns(5);
+}
+
+.col-6 {
+  @include span-columns(6);
+}
+.col-65 {
+  @include span-columns(6.5);
+}
+.col-7 {
+  @include span-columns(7);
+}
+.col-8 {
+  @include span-columns(8);
+}
+.col-9 {
+  @include span-columns(9);
+}
+.col-10 {
+  @include span-columns(10);
+}
+.col-11 {
+  @include span-columns(11);
+}
+.col-12 {
+  @include span-columns(12);
+}
+
+.block-content {
+  width: 100%;
+  max-width: $content-max-width;
+  padding: 0 $side-indents;
+  margin: 0 auto;
+}
+
+//// Neat Breakpoints
+//$screen-mobile: rem(500);
+//$screen-tablet: rem(640);
+//$screen-about:  rem(600);
+//$screen-desktop: rem(960);
+//
+//$mobile:   new-breakpoint(max-width $screen-mobile 4);
+//$tablet:   new-breakpoint(max-width $screen-tablet 4);
+//$about:    new-breakpoint(max-width $screen-about 4);
+//$desctop:  new-breakpoint(max-width $screen-desktop 12);
+
